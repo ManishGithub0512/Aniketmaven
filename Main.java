@@ -1,24 +1,17 @@
-package Abstract;
+package Inheritance;
 
-public class Main {
+public class  Main  {
 
 	public static void main(String[] args) {
-		famimplementation fi = new famimplementation();
-		fi.grandpaa();
-		fi.grandmaa();
-		fi.father();
-		fi.mother();
-		System.out.println("**********************");
-		Treeimplementation TI = new Treeimplementation();
-		TI.root();
-		TI.leaves();
-		TI.steam();
-		System.out.println("************************");
-		orgnizationimplementation CI = new orgnizationimplementation();
-		CI.department();
-		CI.employee();
-		CI.mangger();
-		CI.salary();
+		Sal d=new Sal();
+		d.bonus();
+		d.paydate();
+		d.amount();
+System.out.println("*****************");
+	   d.amount();
+	   d.bonus();
+	   d.paydate();
+System.out.println("*******************");
 
 	}
 }
